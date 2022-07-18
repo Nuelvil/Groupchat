@@ -1,0 +1,100 @@
+body{
+    color: white !important;
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(23, 18, 95) !important;
+    color: white !important;
+}
+.navbar h3 span{
+    color: white !important;
+
+}
+.navbar h3{
+    color: blue;
+}
+.navbar .navbar-nav .nav-item{
+    margin-left: 2rem;
+}
+.navbar .nav-link{
+    color: white !important;
+}
+.navbar .nav-link button{
+    border: 1px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: smaller;
+}
+#banner{
+    background-color: rgb(23, 18, 95);
+    height: 100%;
+}
+#banner .text h2 span{
+    color: blue;
+}
+#banner .text .btn-1{
+    border: 1px solid white;
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+#banner .text span button{
+    border: 2px solid white;
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+ #outer-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  #outer-grid > div {
+    background-color: rgb(23, 18, 95) !important;
+    color: white;
+    font-size: 4vw;
+    padding: 10px;
+  }
+  #inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3px;
+  }
+  #inner-grid > div {
+    background-color: rgb(92, 92, 245);
+    padding: 5px;
+  }
+   .container{
+      width: 100%;
+      padding-top: 3rem;
+  }
+  #banner img{
+      width: 100%;
+  }
+  #banner .icon i{
+    font-size: 4vw;
+  }
+  #banner .icon span{
+      font-size: 1.5rem;
+  }
+  #banner .border{
+      width: 100%;
+      border-radius: 1rem;
+  }
+  #banner .border h3{
+      margin-left: 3rem;
+  }
+  #banner .border p{
+    margin-left: 3rem;
+  }
